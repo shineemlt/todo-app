@@ -1,3 +1,5 @@
-public static int sum(int a, int b){
-	return a+b;
+public static int sum(int a, int b)throw Exception{	
+if(a+b>Integer.MAX){
+		throw new Exception("Exception: exeed Integer value")}
+return a+b;
 }
