@@ -1,0 +1,6 @@
+private int div(int a, int b) throws ArithmetiException{
+	if(b==0){
+		throw new ArithmetiException;
+	}
+	return a/b;
+}
