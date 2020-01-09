@@ -1,0 +1,6 @@
+public int mul(int a,int b){
+	if(a*b>Integer.Max){
+		throw new Exception("result")
+	}
+	return a*b;	
+}	
